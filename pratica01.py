@@ -17,7 +17,7 @@ genero = input("Seu genero: ")
 
 print("\n\n\n")
 
-print("Seu nome é: ",nome_usuario(nome))
-print("Sua idade é: ",idade_usuario(idade))
+print("Seu nome é ",nome_usuario(nome))
+print("Sua idade é ",idade_usuario(idade))
 print("Você é ", estado_civil(estadocivil))
 print("Voce é do genero ", genero_usuario(genero))
