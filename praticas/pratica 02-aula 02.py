@@ -1,5 +1,7 @@
 def match(eu, pessoa02):
-    if eu == pessoa02:
+    solteiro='s'
+    casado='c'
+    if (eu == solteiro) and (pessoa02 == solteiro):
         return print("Bora")
     else:
         return print("Deixa quieto")
