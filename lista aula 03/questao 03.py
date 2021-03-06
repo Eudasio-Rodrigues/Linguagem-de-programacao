@@ -4,4 +4,4 @@ if distancia <= 200:
 else:
     passagem = distancia * 0.45
 
-print("O valor da sua passagem é de R${}".format(passagem))
+print(f"O valor da sua passagem é de R${passagem}")
