@@ -2,9 +2,9 @@ def radar_eletronico(velocidade):
     km_rodado=5 #valor da ,ulta por km rodado
 
     if velocidade > 80:#condiçao pra checar se o motorista está dentro do limite
-        print("Você foi multado por excesso de velocidade")
+        print(f"Você foi multado por excesso de velocidade")
         multa=90 + (velocidade-80) * km_rodado
-        print("Sua multa é de R${}".format(multa))
+        print(f"Sua multa é de R${multa}")
     else:
         print("Você estava dentro do limite")
 
