@@ -8,7 +8,7 @@ def emprestimo(valor_casa, salario, quantidade_anos):
     
     else:
         
-        print("Voce irá pagar sua casa em {} prestações de R${:.2f}".format(meses,prestacao_casa))
+        print(f"Voce irá pagar sua casa em {meses} prestações de R${prestacao_casa:.2f}")
 
 valor_casa=float(input("Qual o valor da casa:R$ "))
 salario=float(input("Digite seu salário:R$ "))
