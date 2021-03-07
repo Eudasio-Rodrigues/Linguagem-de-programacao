@@ -1,3 +1,10 @@
+#Faça uma função que receba como argumento o salário de um funcionário e 
+#calcule o valor do aumento com base nos dados abaixo.
+#Para salários superiores a R$ 1.250,00 Reais, calcule um aumento de 10%
+#Para os inferiores ou iguais, 15% de aumento.
+
+Para salários superiores a R$ 1.250,00 Reais, calcule um aumento de 10%
+Para os inferiores ou iguais, 15% de aumento.
 def aumento_salarial(salario):
 
     if salario > 1250:
