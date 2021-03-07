@@ -3,6 +3,7 @@
 #No final da execução, exiba a quantidade de números digitados, 
 #assim como a soma e a média aritmética
 
+
 loop = True
 lista = []
 
