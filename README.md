@@ -1,2 +1,2 @@
 # Linguagem-de-programacão I
-Repositório da disciplina de linguagem de programação I
+Aqui serão postados códigos escritos durante a disciplina de linguagem de programação. Todos os códigos estarão escritos na linguagem python.
