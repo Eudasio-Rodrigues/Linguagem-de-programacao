@@ -4,12 +4,11 @@
 from  time import sleep 
 import os
 x = 10
-while x > 0:
-    for contagem in range(2):
-        sleep(1)
+while x >= 0:
+    for contagem in range(1):
+        sleep(2)
         print(x)
         x = x-1
         
 os.system('clear')  
 print('Fogo')
-    
