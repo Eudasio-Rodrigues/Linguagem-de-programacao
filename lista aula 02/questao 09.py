@@ -4,7 +4,7 @@
 string1=input("Digite uma palavra\n")
 string2=input("Digite outra palavra\n")
 
-def tamanho_string(string1,string2):
+def tamanho_string(string1, string2):
     if len(string1) == len(string2):
         return True
     else:
