@@ -4,7 +4,7 @@
 lista = [1,2,2,5,9,0,0,0,10,3,3,3,3]
 
 def remove_repetidos(lista):
-    lista = sorted(set(lista))
+    lista = set(lista)
     print(lista)
 
 remove_repetidos(lista)
