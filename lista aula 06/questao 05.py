@@ -16,10 +16,11 @@ print(f"Lista completa {lista}\n")
 print(f"a = {lista[0:10]}\n")
 print(f"b = {lista[31:41]}\n")
 print(f"c = {lista[18:23]}\n")
-lista.reverse()
 print(f"d = {lista}\n")
-print(f"primeiro indice {lista[-1]} ,ultimo indice {lista[0]}\n")
+print(f"primeiro indice {lista[0]} ,ultimo indice {lista[-1]}\n")
 lista = [item**2 for item in range(0,41)]
 print(f"{lista}\n")
 lista = [numero for numero in range(0,41) if numero % 2 == 0]
 print(lista)
+
+lista.reverse()
