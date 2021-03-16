@@ -3,8 +3,8 @@
 #pelos valores dos índices indicados.
 
 def converte(lista): 
-    return tuple(list) 
+    return tuple(lista) 
    
-list = [1, 2, 3] 
-converte(list)
-print(converte(list)) 
+lista = [1, 2, 3] 
+converte(lista)
+print(converte(lista)) 
