@@ -17,7 +17,7 @@ def verifica_chave(dados_pessoais, chave):
         print(dados_pessoais[chave])
     else:
         print("Chave não econtrada")
-        dados_pessoais[chave]=""
+        dados_pessoais[chave]=" "
         print(dados_pessoais)
 
 
