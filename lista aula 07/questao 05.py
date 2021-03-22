@@ -1,6 +1,6 @@
-#Utilizando o dicionário criado na questão anterior faça: Uma função que retorne apenas 
-# os valores pares do dicionario da questão anterior Uma função que retorne apenas as chaves
-#vogais do dicionário da questão anterior
+#Utilizando o dicionário criado na questão anterior faça: 
+# Uma função que retorne apenas os valores pares do dicionario
+# Uma função que retorne apenas as chaves vogais do dicionário
 nome='EUdAsIO'
 
 def dicionario(nome):
