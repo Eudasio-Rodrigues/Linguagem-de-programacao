@@ -51,12 +51,12 @@ class Biblioteca:
                 print("o livro nao está disponivel")
             else:
                 print("Aqui está ele. Voce tem 7 dias para devolver")
-'''aluno = Alunos()
+aluno = Alunos()
 aluno.assistir_aula()
 aluno.mostrar_dados()
 sec=Secretaria()
 sec.adicionar_notas()
 prof=Professores()
-prof.aulas()'''
+prof.aulas()
 biblioteca=Biblioteca()
 biblioteca.emprestar()
