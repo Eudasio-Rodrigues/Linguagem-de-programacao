@@ -39,11 +39,24 @@ class Professores():
             print("Preciso planejar as aulas dessa semana")
         else:
             print("Finalmente férias")
-        
-aluno = Alunos()
+
+class Biblioteca:
+    def __init__(self):
+        self.livro=input("Qual livro voce quer pegar: ")
+    
+    def emprestar(self):
+        self.lista=['HP a pedra filosofal','HP e a camara secreta']
+        for self.livro in self.lista:
+            if self.livro not in self.lista:
+                print("o livro nao está disponivel")
+            else:
+                print("Aqui está ele. Voce tem 7 dias para devolver")
+'''aluno = Alunos()
 aluno.assistir_aula()
 aluno.mostrar_dados()
 sec=Secretaria()
 sec.adicionar_notas()
 prof=Professores()
-prof.aulas()
+prof.aulas()'''
+biblioteca=Biblioteca()
+biblioteca.emprestar()
