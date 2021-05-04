@@ -34,7 +34,7 @@ class Professores():
         self.dia_trabalhados= int(input("Dias trabalhados: "))
         self.dia_letivos = 200
 #metodo que verifica se o professor ainda precisa dar aula ou está de ferias
-    def aulas(self):
+    def dar_aulas(self):
         if self.dia_trabalhados < self.dia_letivos:
             print("Preciso planejar as aulas dessa semana")
         else:
@@ -57,6 +57,6 @@ aluno.mostrar_dados()
 sec=Secretaria()
 sec.adicionar_notas()
 prof=Professores()
-prof.aulas()
+prof.dar_aulas()
 biblioteca=Biblioteca()
 biblioteca.emprestar()
